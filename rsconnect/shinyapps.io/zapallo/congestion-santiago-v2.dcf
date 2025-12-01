@@ -1,0 +1,10 @@
+name: congestion-santiago-v2
+title:
+username: zapallo
+account: zapallo
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 16208030
+bundleId: 11258200
+url: https://zapallo.shinyapps.io/congestion-santiago-v2/
+version: 1
