@@ -1,7 +1,7 @@
 # ============================================================================
 # DASHBOARD - ANÁLISIS DE CONGESTIÓN VEHICULAR EN SANTIAGO
 # Minería de Datos 2025
-# Autores: Javier Farías & Uriel Navarrete
+# Autor: Javier Farías
 # Universidad Andrés Bello - Ingeniería Civil Informática
 # ============================================================================
 
@@ -32,9 +32,8 @@ ui <- dashboardPage(
     # Info del equipo en sidebar
     div(
       style = "padding: 15px; text-align: center; border-bottom: 1px solid #444;",
-      h4(style = "color: #fff; margin-bottom: 5px;", "Equipo"),
+      h4(style = "color: #fff; margin-bottom: 5px;", "Autor"),
       p(style = "color: #aaa; font-size: 12px; margin: 0;", "Javier Farías"),
-      p(style = "color: #aaa; font-size: 12px; margin: 0;", "Uriel Navarrete"),
       p(style = "color: #888; font-size: 11px; margin-top: 5px;", "UNAB - Ing. Civil Informática")
     ),
     
@@ -361,9 +360,8 @@ ui <- dashboardPage(
         fluidRow(
           column(6,
             div(class = "info-card",
-              h3(icon("users"), " Equipo"),
-              p("Javier Farías"),
-              p("Uriel Navarrete")
+              h3(icon("user"), " Autor"),
+              p("Javier Farías")
             )
           ),
           column(6,
@@ -991,7 +989,7 @@ ui <- dashboardPage(
           column(12,
             div(style = "text-align: center; padding: 30px; color: #fff;",
               h3("¡Gracias por su atención!"),
-              p(style = "font-size: 20px; opacity: 0.8;", "Javier Farías & Uriel Navarrete"),
+              p(style = "font-size: 20px; opacity: 0.8;", "Javier Farías"),
               p(style = "font-size: 18px; opacity: 0.6;", "Universidad Andrés Bello - 2025")
             )
           )
