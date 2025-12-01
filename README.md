@@ -8,9 +8,6 @@ Universidad Andrés Bello - Ingeniería Civil Informática
 ---
 
 ## ESTRUCTURA DE LA PRESENTACIÓN
-
-### ⏱️ TIEMPO TOTAL: ~12-15 minutos
-
 ---
 
 ## 📋 ORDEN DE PESTAÑAS
@@ -154,18 +151,6 @@ Universidad Andrés Bello - Ingeniería Civil Informática
 
 ---
 
-## 🎯 TIPS
-
-### Antes de empezar:
-- [ ] Tener el dashboard abierto en: https://zapallo.shinyapps.io/congestion-santiago-v2/
-- [ ] Probar los botones de navegación
-
-### Durante la presentación:
-- Usar los botones "← Anterior" y "Siguiente →"
-- Hacer zoom en los gráficos interactivos
-
----
-
 ## 🚀 COMANDO PARA EJECUTAR LOCALMENTE
 
 ```r
@@ -174,4 +159,3 @@ Rscript -e "shiny::runApp('app.R', launch.browser = TRUE)"
 
 ---
 
-**¡Éxito en la presentación! 🏆**
